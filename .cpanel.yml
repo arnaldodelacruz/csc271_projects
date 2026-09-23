@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/adelacruz/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+
