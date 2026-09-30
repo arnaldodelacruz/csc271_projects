@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit Your Recipes!</title>
+    </head>
+    <body>
+        <h1> Welcome to the Recipe Submission Page!</h1>
+        <h2> Recipe Info</h2>
+        <form>
+            <label for="recipe_name">Recipe Name:</label><br>
+            <input type="text" id="recipe_name" name="recipe_name"><br>
+            <label for="Ingredients">Ingredient List:</label><br>
+            <input type="text" id="Ingredients" name="Ingredients"><br>
+            <label for="Instructions">Instructions:</label><br>
+            <input type="text" id="Instructions" name="Instructions"><br>
+          </form>
+        <hr />
+        <h2> Recipe Difficulty</h2>
+        <form>
+            <input type="radio" id="Easy" name="Difficulty" value="Easy">
+            <label for="Easy">Easy</label><br>
+            <input type="radio" id="Medium" name="Difficulty" value="Medium">
+            <label for="Medium">Medium</label><br>
+            <input type="radio" id="Hard" name="Difficulty" value="Hard">
+            <label for="Hard">Hard</label>
+        </form> 
+        <hr />
+        <h2> Recipe Type</h2>
+        <form action="index.html">
+            <input type="checkbox" id="diet1" name="diet1" value="Vegitarian">
+            <label for="diet1"> Vegitarian</label><br>
+            <input type="checkbox" id="diet2" name="diet2" value="Vegan">
+            <label for="diet2"> Vegan</label><br>
+            <input type="checkbox" id="diet3" name="diet3" value="Gluten Free">
+            <label for="diet3"> Gluten Free</label><br>
+            <input type="checkbox" id="diet4" name="diet4" value="Dairy Free">
+            <label for="diet3"> Dairy Free</label><br><br>
+            <input type="submit" value="Submit">
+          </form>  
+        <h2> Thank you for submitting your recipe! Head back to the Recipe Page.</h2>
+        <a href="index.html">Go to Recipe Page</a>
+    </body>
+
+
+</html>
