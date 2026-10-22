@@ -1,126 +1,57 @@
 <!DOCTYPE html>
-<!-- The validator told me to add the lang tag? -->
 <html lang="en">
     <!-- Arnaldo De La Cruz. 09/27/26. -->
-    <!-- This page would be the personal profile page of the user. From here they can
-     access their ratings, view friends' activity, check their fandoms, edit their 
-     profile pictures, bio, and username. -->
-
-
     <head>
-        <!-- The validator told me to add this? -->
         <meta charset="utf-8">
-
+        <link rel="stylesheet" href="css/styling.css">
         <title>User Profiles</title>
     </head>
     <body>
-        <!-- Title for Page "User Profile"  -->
-
-        <h1>&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;
-            My Profile</h1>
+        <h1 id="main-title">My Profile</h1>
         <hr />
-        <br /><br /><br /><br /><br /><br />    
-        <br /><br /><br /><br />
-        <!-- First section. Includes profile picture, username, and a bio/description  -->
-
-        <p>&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href = "mailto:a_delacruz@uri.edu"> 
-                @arnaldodelacruz</a></p>
-                <p>&emsp;&emsp;&emsp;&emsp;&emsp;
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hello! I am a big fan of 
-                    TV shows and movies!</p>
-
+        
+        <p><a href="mailto:a_delacruz@uri.edu">@arnaldodelacruz</a></p>
+        <p>Hello! I am a big fan of TV shows and movies!</p>
         <hr />
+        
+        <h2>My Ratings</h2>
         <p>
-            <!-- Will Inlude photos of what you rated. Also includes the score you gave it (out of 10) -->
-
-            <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                
-                My Ratings</h2>
-        <p>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-            <em>&emsp;&emsp;&emsp;7.5&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;9.5&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;6.0&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;8.0&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;9.0&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;10.0&emsp;&emsp;&emsp;</em>
-            <em>&emsp;&emsp;&emsp;4.5&emsp;&emsp;&emsp;</em>
-
+            <em>7.5</em> | <em>9.5</em> | <em>6.0</em> | <em>8.0</em> | <em>9.0</em> | <em>10.0</em> | <em>4.5</em>
         </p>
         <hr />
-                <!-- Shows what your friends' have been viewing and any ratings or reviews they had posted  -->
 
-        <h2>
-            Friend Activity
-        </h2>
-            <ol>
-                    <!-- Two examples of possible friends and their activity ordered by recency-->
-
-                <li> <strong>@number1TVenjoyer</strong>
-        
-                    <ul>
-                        
-                        <li> <em>2 days ago: Reviewed Peaky Blinders</em></li>
-                        <li><em> 2 days ago: Rated Peaky Blinders 10.0</em></li>
-                        <li> <em>2 days ago: Watched Peaky Blinders</em></li>
-                        <li> <em>22 days ago: Rated Blue's Clues 8.0 </em></li>
-                        
-                    </ul>
-                </li>
-            </ol>
-        <br />
-        <br />        
-            <ol>   
-                <li><strong>@justjohn</strong> 
-         
-                    <ul>
-                        <li> <em>12 Hours Ago: Rated Peaky Blinders 7.5</em></li>
-                        <li> <em>13 hours ago: Watched Peaky Blinders</em></li>
-                        <li> <em>4 days ago: Rated Sopranos 9.5 </em></li>
-                        <li> <em>4 days ago: Watched Sopranos</em></li>
-                    </ul>
-                </li>
-            </ol>
-        
+        <h2>Friend Activity</h2>
+        <ol>
+            <li><strong>@number1TVenjoyer</strong>
+                <ul>
+                    <li><em>2 days ago: Reviewed Peaky Blinders</em></li>
+                    <li><em>2 days ago: Rated Peaky Blinders 10.0</em></li>
+                    <li><em>2 days ago: Watched Peaky Blinders</em></li>
+                    <li><em>22 days ago: Rated Blue's Clues 8.0</em></li>
+                </ul>
+            </li>
+        </ol>
+        <ol>   
+            <li><strong>@justjohn</strong> 
+                <ul>
+                    <li><em>12 Hours Ago: Rated Peaky Blinders 7.5</em></li>
+                    <li><em>13 hours ago: Watched Peaky Blinders</em></li>
+                    <li><em>4 days ago: Rated Sopranos 9.5</em></li>
+                    <li><em>4 days ago: Watched Sopranos</em></li>
+                </ul>
+            </li>
+        </ol>
         <hr />
-                <!-- Fandom Section. Will show communities/groups you have joined and posts they have made  -->
-
-        <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;
-            My Fandoms</h2>
-        <br />
-        <p>
-        <em>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            You currently are not a part of any fandoms.  </em>
-        </p>
-        <br />
+        
+        <h2>My Fandoms</h2>
+        <p><em>You currently are not a part of any fandoms.</em></p>
         <hr />
-        <ul>
-        <!-- Links to other pages as well as help/contact section -->
-
-            <li><a href = "product_homepage.html">Home</a></li>
-            <li><a href = "productsite.html">Profile</a></li>
-            <li><a href = "">TV Shows</a></li>
-            <li><a href = "">Fandoms</a></li>
-            <li><a href = "">Help</a></li>
-            <li><a href = "">Contact</a></li>
+        
+        <ul class="nav-links">
+            <li><a href="product_homepage.html">Home</a></li>
+            <li><a href="productsite.html">Profile</a></li>
+            <li><a href="showspage.html">TV Shows</a></li>
+            <li><a href="mailto:a_delacruz@uri.edu">Contact</a></li>
         </ul>
-
-
-
-
     </body>
-
-
 </html>

@@ -1,0 +1,86 @@
+
+
+/* --- background color--- */
+
+
+body {
+    background-color: #FEECC0
+    ; 
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #556890;
+    text-align: center; 
+}
+
+
+/* --- fonts for text and color (heading) --- */
+h1, h2 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #556890;
+}
+
+/* --- fonts for text and color (paragraphs) --- */
+
+p {
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    color: #556890;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+figure {
+    display: inline-block; 
+    width: 250px;
+    margin: 15px;
+}
+
+
+/* --- fonts for background (heading) --- */
+
+#main-title {
+    background-color: #FEECC0
+    ;
+    padding: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* Merges double borders into a single clean line */
+    width: 60%; /* Makes the table take up 60% of the screen width */
+    background-color: #F4B9B8;
+}
+
+/* --- fonts for background (links) --- */
+
+.nav-links {
+    background-color: #FEECC0
+    ;
+    padding: 15px;
+    list-style-type: none; 
+}
+
+.nav-links li {
+    display: inline; 
+    margin: 15px;
+}
+
+
+
+/* --- link color, before, after, and while hovering --- */
+
+a:link {
+    color: blue;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: lightpink;
+    text-decoration: underline; 
+}
