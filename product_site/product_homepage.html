@@ -2,37 +2,56 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>YourTV Homepage</title>
         <!-- Link to external stylesheet -->
         <link rel="stylesheet" href="css/styling.css">
     </head>
-    
+    <!-- Added div header and links -->
     <body>
-        <h1 id="main-title"> 
-            <img src="images/delacruz_logo.png" alt="YourTV Logo" width="250" height="250">
-            <br />
-            <strong>WELCOME HOME</strong> 
-        </h1>
-        <hr />
+        <div class="header">
+            <h1 id ="main-title">
+                <img src="images/delacruz_logo.png" alt="YourTV Logo" width="250" height="250">
 
-        <h2>Popular This Week:</h2>
-        <img src="images/eastofeden.jpg" alt="East of Eden Netflix Show" width="200" height="250">
-        <img src="images/brothershow.jpg" alt="AppleTV Brothers Show" width="199.59" height="250">
-        <img src="images/lanternshow.jpg" alt="DC Laterns Show" width="166.7" height="250">
-            
-        <p>
-            <strong>East of Eden (Netflix)</strong> | <strong>Brothers (AppleTV)</strong> | <strong>DC's Lanterns (HBO Max)</strong>
-        </p>
-        <p>
-            <em>Ranked #1 On Netflix</em> | <em>Ranked #2 On AppleTV</em> | <em>Ranked #3 On HBO Max</em>
-        </p>
-        <p>
-            <em>Drama/Period Pieces</em> | <em>Comedy</em> | <em>Crime Mystery/Sci-Fi</em>
-        </p>
+       
+                
+                <strong>WELCOME HOME</strong> 
+            </h1>
+            <ul class="links">
+                    <!-- Links to other pages as well as help/contact section -->
+                    <li><a href="product_homepage.html" class="active">Home</a></li>
+                    <li><a href="productsite.html">Profile</a></li>
+                    <li><a href="showspage.html">TV Shows</a></li>
+                    <li><a href="mailto:a_delacruz@uri.edu">Contact</a></li>
+                </ul>
+            </div>
+     
+
+
+                    <!-- Added div content -->
+
+        <div class="content">
+            <hr />
+            <h2>Popular This Week:</h2>
+            <img src="images/eastofeden.jpg" alt="East of Eden Netflix Show" width="200" height="250">
+            <img src="images/brothershow.jpg" alt="AppleTV Brothers Show" width="199.59" height="250">
+            <img src="images/lanternshow.jpg" alt="DC Laterns Show" width="166.7" height="250">
         
-        <iframe width="280" height="157.5" src="https://www.youtube.com/embed/M9NWvGZViCg?si=Ek_bh7RWnx-MRDxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="280" height="157.5" src="https://www.youtube.com/embed/fIKFnzIcfcA?si=hquETv0OBA-w3jVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="280" height="157.5" src="https://www.youtube.com/embed/7UIBOsuUwc4?si=jj9MU0DAC_tfSicQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            
+            <p>
+                <strong>East of Eden (Netflix)</strong> | <strong>Brothers (AppleTV)</strong> | <strong>DC's Lanterns (HBO Max)</strong>
+            </p>
+            <p>
+                <em>Ranked #1 On Netflix</em> | <em>Ranked #2 On AppleTV</em> | <em>Ranked #3 On HBO Max</em>
+            </p>
+            <p>
+                <em>Drama/Period Pieces</em> | <em>Comedy</em> | <em>Crime Mystery/Sci-Fi</em>
+            </p>
+            
+            <iframe width="280" height="157.5" src="https://www.youtube.com/embed/M9NWvGZViCg?si=Ek_bh7RWnx-MRDxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="280" height="157.5" src="https://www.youtube.com/embed/fIKFnzIcfcA?si=hquETv0OBA-w3jVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="280" height="157.5" src="https://www.youtube.com/embed/7UIBOsuUwc4?si=jj9MU0DAC_tfSicQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <hr />
 
@@ -89,12 +108,6 @@
           </form>
 
           <hr />
-        <ul class="nav-links">
-            <!-- Links to other pages as well as help/contact section -->
-            <li><a href="product_homepage.html">Home</a></li>
-            <li><a href="productsite.html">Profile</a></li>
-            <li><a href="showspage.html">TV Shows</a></li>
-            <li><a href="mailto:a_delacruz@uri.edu">Contact</a></li>
-        </ul>
+        </div>
     </body>
 </html>

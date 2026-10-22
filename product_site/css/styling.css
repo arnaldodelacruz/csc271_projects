@@ -25,24 +25,70 @@ p {
     color: #556890;
 }
 
+/* --- header div --- */
+.header {
+    overflow: hidden;
+    background-color: #FEECC0;
+    padding: 20px;
+    text-align: center; 
+}
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+   
+}
+/* --- div for links --- */
+
+.links {
+    background-color: #FEECC0;
+    padding: 5px;
+    list-style-type: none; 
+}
+
+.links li {
+    display: inline; 
+    text-align:  center;
+    float: right;
+    padding: 15px;
+    text-decoration: none; 
+    
+}
+
+
+
+.links li a:visited {
+    color: purple;
+}
+
+.links li a:hover {
+    color: lightpink;
+    text-decoration: underline; 
+}
+
+
+.content {
+    float: center;
+   width: 80%;
+   background-color: #FEECC0;
+   padding: 30px;
+   margin: 20px 10%;
+   box-sizing: border-box;
+
+}
 img {
+    float: center;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
     width: 200px;
     height: 250px;
+
 }
-
-figure {
-    display: inline-block; 
-    width: 250px;
-    margin: 15px;
-}
-
-
-/* --- fonts for background (heading) --- */
-
-#main-title {
-    background-color: #FEECC0
-    ;
-    padding: 20px;
+hr{
+    clear:both;
 }
 
 table {
@@ -53,34 +99,38 @@ table {
     background-color: #F4B9B8;
 }
 
-/* --- fonts for background (links) --- */
-
-.nav-links {
-    background-color: #FEECC0
-    ;
-    padding: 15px;
-    list-style-type: none; 
-}
-
-.nav-links li {
-    display: inline; 
+figure {
+    display: inline-block; 
+    width: 250px;
     margin: 15px;
 }
 
 
 
-/* --- link color, before, after, and while hovering --- */
+/* --- fonts for background (heading) --- */
 
-a:link {
-    color: blue;
-    text-decoration: none; 
+#main-title {
+    background-color: #FEECC0
+    ;
+    padding: 20px;
 }
 
-a:visited {
-    color: purple;
+img {
+    max-width: 100%;
+    height: auto;
 }
+@media and (max-width: 600px) {
+    .links li{
+        float: none;
+    }
+    .links li a {
+        display: block;
+        text-align: left;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
 
-a:hover {
-    color: lightpink;
-    text-decoration: underline; 
+    }
 }
